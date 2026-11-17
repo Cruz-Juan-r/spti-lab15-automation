@@ -1,5 +1,6 @@
 # Lab 15 — Automation (SPTI)
 
+Juan Esteban Cruz, Sebastian Villarraga
 A multi-stage reconnaissance and log-analysis toolkit, built in two roles
 (scanner engineer + log analyst). Everything scans only the authorised address
 in `scope.txt`; scanning a host you are not authorised to scan is illegal
