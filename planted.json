@@ -1,0 +1,22 @@
+{
+  "attacker_ips": {
+    "185.220.101.5": 60,
+    "45.33.32.156": 35
+  },
+  "invalid_user_lines_added": 44,
+  "breached_ip": "185.220.101.5",
+  "spike_hour": "03:00",
+  "spike_ip": "198.51.100.99",
+  "attack_paths": [
+    "/?id=1'%20UNION%20SELECT%201,2,3--",
+    "/admin/..%2f..%2f..%2fetc/passwd",
+    "/search?q=%3Cscript%3Ealert(1)%3C/script%3E",
+    "/cgi-bin/test.cgi?cmd=id%3Bcat%20/etc/passwd",
+    "/p?q=1%2527%2520UNION%2520SELECT%2520password--",
+    "/s?q=1+UN/**/ION+SeLeCt+1,2"
+  ],
+  "custom_payloads": [
+    "/p?q=1%2527%2520UNION%2520SELECT%2520password--",
+    "/s?q=1+UN/**/ION+SeLeCt+1,2"
+  ]
+}

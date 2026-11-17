@@ -1,0 +1,7 @@
+# recon audit log for example.com (domain) started 2026-11-16T19:46:04
+2026-11-16T19:46:04 | success | whois example.com
+2026-11-16T19:46:05 | success | dig +short example.com A
+2026-11-16T19:46:05 | nonzero_exit:9 | dig +short example.com MX
+2026-11-16T19:46:20 | success | dig +short example.com NS
+2026-11-16T19:46:20 | success | dig +short example.com TXT
+2026-11-16T19:46:20 | success | curl -sSI --max-time 15 http://example.com

@@ -1,0 +1,23 @@
+{
+  "nmap": {
+    "open_ports": [
+      {
+        "port": 22,
+        "service": "ssh",
+        "version": "OpenSSH 10.3p1 Debian 4"
+      },
+      {
+        "port": 80,
+        "service": "http",
+        "version": "Apache httpd 2.4.68"
+      }
+    ]
+  },
+  "reverse_dns": {
+    "ptr": []
+  },
+  "whois": {
+    "organization": "Internet Assigned Numbers Authority",
+    "country": "US"
+  }
+}

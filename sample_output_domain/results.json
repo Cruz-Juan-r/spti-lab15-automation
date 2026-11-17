@@ -1,0 +1,30 @@
+{
+  "whois": {
+    "registrar": "RESERVED-Internet Assigned Numbers Authority",
+    "creation_date": "1995-08-14T04:00:00Z",
+    "expiry_date": "2027-08-13T04:00:00Z",
+    "registrant_org": null
+  },
+  "dig": {
+    "A": [
+      "172.66.147.243",
+      "104.20.23.154"
+    ],
+    "MX": [],
+    "NS": [
+      "elliott.ns.cloudflare.com.",
+      "hera.ns.cloudflare.com."
+    ],
+    "TXT": [
+      "\"_k2n1y4vw3qtb4skdx9e7dxt97qrmmq9\"",
+      "\"v=spf1 -all\""
+    ]
+  },
+  "curl": {
+    "Server": "cloudflare",
+    "X-Powered-By": null,
+    "Content-Security-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Frame-Options": null
+  }
+}

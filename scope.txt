@@ -1,0 +1,3 @@
+Authorized target: <ANALYST_KALI_IP>        # e.g. 192.168.56.102 — run `ip a` on the analyst machine
+Authorized window: 2026-11-16 19:00 to 2026-11-16 22:00 America/Bogota
+Only this address may be scanned.

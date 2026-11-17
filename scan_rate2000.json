@@ -1,0 +1,15 @@
+{
+  "target": "10.0.2.15",
+  "engine": "asyncio",
+  "ports_scanned": 1024,
+  "rate": 2000,
+  "scan_time_seconds": 0.06,
+  "timestamp": "2026-11-16T19:39:52",
+  "open_ports": [
+    22,
+    80,
+    801,
+    802,
+    803
+  ]
+}
